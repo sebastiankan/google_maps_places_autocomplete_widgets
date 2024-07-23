@@ -273,7 +273,7 @@ result["result"]
     // if you want to get the details of the selected place by place_id
     final Map<String, dynamic> parameters = <String, dynamic>{
       'place_id': placeId,
-      'fields': 'name,formatted_address,address_component,geometry',
+      'fields': ['name', 'formatted_address', 'address_component', 'geometry'],
       'key': mapsApiKey,
       'sessiontoken': sessionToken
     };
