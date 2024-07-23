@@ -279,7 +279,7 @@ result["result"]
     };
     final Uri request = Uri(
         scheme: 'https',
-        host: 'maps.googleapis.com',
+        host: 'api.offerbite.app',
         path: '/maps/api/place/details/json',
 
         //PlaceApiNew     host: 'places.googleapis.com',
