@@ -124,7 +124,7 @@ result["predictions"] =
 
     final Uri request = Uri(
         scheme: 'https',
-        host: 'maps.googleapis.com',
+        host: 'api.offerbite.app',
         path: '/maps/api/place/autocomplete/json',
         queryParameters: parameters);
 
